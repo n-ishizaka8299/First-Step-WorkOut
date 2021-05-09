@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'workout',
+    'bootstrap4',
 ]
 
 # WHITENOISE_USE_FINDERS = True

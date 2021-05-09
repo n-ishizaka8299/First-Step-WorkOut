@@ -2,3 +2,4 @@ Django
 gunicorn
 whitenoise
 cPython
+django-bootstrap4==1.0.1
