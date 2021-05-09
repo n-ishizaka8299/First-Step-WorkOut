@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from .settings import my_customized_server_error
 from django.contrib import admin
 from django.urls import path, include
 from workout import views
@@ -22,3 +23,5 @@ urlpatterns = [
     path('', include('workout.urls')),
     path('', views.Index.as_view(), name='index'),
 ]
+
+handler500 = my_customized_server_error
