@@ -1,6 +1,6 @@
 .cp_ipselect01:hover, .cp_ipselect01:active {
-  background-color: lightblue !important;
-  border: 1px solid lightblue !important;
+  background-color: #006600 !important;
+  border: 1px solid #006600 !important;
   transition: 0.5s ;
 }
 
