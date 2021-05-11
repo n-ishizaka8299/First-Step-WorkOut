@@ -1,3 +1,7 @@
+* {
+  -webkit-appearance:none;
+}
+
 .men-content{
     font-family: 'Noto Serif JP',serif;
     background-image: url('/static/men-result.jpg');
