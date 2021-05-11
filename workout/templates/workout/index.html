@@ -30,7 +30,7 @@
     <title>Work Out</title>
     <link rel="shortcut icon" href="static/favicon.png" type="image/png"/>
   </head>
-  <body>
+  <body ontouchstart="">
     <nav class="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="">Inspire Your Fire</a>
@@ -83,7 +83,7 @@
       <div class="sub-square"></div>
         <form action='result/' method="post">
           {% csrf_token %} 
-          <div class="goal" ontouchstart=&quot;&quot;>
+          <div class="goal">
             <h2>目標体型</h2>
             <p>                                
               {{ form.goal }}   
