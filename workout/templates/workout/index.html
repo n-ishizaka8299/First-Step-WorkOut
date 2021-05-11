@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
-  <head onclick=””>
+  <head>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2？family = Noto + Serif + JP：wght @ 200＆ display = swap "
@@ -83,7 +83,7 @@
       <div class="sub-square"></div>
         <form action='result/' method="post">
           {% csrf_token %} 
-          <div class="goal">
+          <div class="goal" ontouchstart=&quot;&quot;>
             <h2>目標体型</h2>
             <p>                                
               {{ form.goal }}   
