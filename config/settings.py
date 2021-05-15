@@ -36,7 +36,6 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    # 'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,8 +45,6 @@ INSTALLED_APPS = [
     'workout',
     'bootstrap4',
 ]
-
-# WHITENOISE_USE_FINDERS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -88,8 +85,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-
     }
 }
 
@@ -127,15 +122,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # staticフォルダの場所
-# STATICFILES_DIRS = [BASE_DIR / 'static/']
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 # whitenoise設定
-# STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# STATICFILES_STORAGE = 'config.storage.WhiteNoiseStaticFilesStorage'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 @requires_csrf_token

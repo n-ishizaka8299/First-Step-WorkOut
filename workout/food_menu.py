@@ -15,7 +15,6 @@ class Diet_menu:
     lunch_menu_04 = '豆腐,'
     lunch_menu_05 = '煮物,'
 
-
     dinner_main = '雑穀ご飯'
     dinner_menu_01 = 'お味噌汁,'
     dinner_menu_02 = '豆腐ハンバーグ,'

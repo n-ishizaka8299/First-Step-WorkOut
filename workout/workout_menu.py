@@ -69,7 +69,6 @@ class Normal_workout:
     run_rep = '20~30分'
     run_set = '1'
 
-
 class Diet_workout:
     """ダイエット用のトレーニングメニューを格納"""
 
