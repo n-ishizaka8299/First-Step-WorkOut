@@ -10,8 +10,8 @@ First Step Work Out
 
 # Requirements
 
-Python&emsp;&emsp;&ensp;3.6.5  
-Django&emsp;&emsp;&ensp;3.1   
+Python&nbsp;&nbsp;&nbsp;3.6.5  
+Django&nbsp;&nbsp;&nbsp;3.1   
 Gunicorn&emsp;&ensp;   20.0.1  
 Whitenoise&ensp; 5.2.0  
 
