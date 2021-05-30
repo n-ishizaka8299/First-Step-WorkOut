@@ -5,15 +5,15 @@ First Step Work Out
 # Features
 
 目標体型までの手順を作成するサービスです。  
-5つの項目を入力すると、目標までに必要な期間・食事・トレーニングを自動作成します。  
+5つの項目を入力すると、必要な期間・食事・トレーニングを自動作成します。  
 目標体型の設定は,スマート体型/ガッチリ体型のどちらかを選択していただきます。
 
 # Requirements
 
-Python3.6.5  
-Django3.1   
-Gunicorn20.0.1  
-Whitenoise5.2.0  
+Python     3.6.5  
+Django     3.1   
+Gunicorn   20.0.1  
+Whitenoise 5.2.0  
 
 # Installation
 
