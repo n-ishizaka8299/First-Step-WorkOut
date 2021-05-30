@@ -10,10 +10,10 @@ First Step Work Out
 
 # Requirements
 
-Python&nbsp;&nbsp;&nbsp;3.6.5  
-Django&nbsp;&nbsp;&nbsp;3.1   
-Gunicorn&emsp;&ensp;   20.0.1  
-Whitenoise&ensp; 5.2.0  
+Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.6.5  
+Django&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1   
+Gunicorn&nbsp;&nbsp;&nbsp;20.0.1  
+Whitenoise&nbsp;5.2.0  
 
 # Installation
 
