@@ -19,7 +19,7 @@ Whitenoise&nbsp;5.2.0
 
 bash  
 $ pip install django==3.1  
-$ pip install gunicorn==20.1.0
+$ pip install gunicorn==20.1.0  
 $ pip install whitenoise==5.2.0  
 
 # Usage
