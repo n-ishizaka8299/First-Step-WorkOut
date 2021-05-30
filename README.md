@@ -12,8 +12,8 @@ First Step Work Out
 
 Python&emsp;&emsp;&emsp;3.6.5  
 Django&emsp;&emsp;&emsp;3.1   
-Gunicorn&emsp;&emsp;   20.0.1  
-Whitenoise&emsp; 5.2.0  
+Gunicorn&emsp;&ensp;   20.0.1  
+Whitenoise&ensp; 5.2.0  
 
 # Installation
 
